@@ -1,0 +1,45 @@
+header{
+    .top-header{
+        color: white;
+        background-color: $ternary-color;
+        padding-block: 10px;
+        .logo-div{
+            position: relative;
+            flex-basis: 40%;
+            .logo{
+                position: absolute;
+                top: -20px;
+                border: 3px solid $secondary-color;
+                border-top: none;
+                z-index: 333;
+            }
+            marquee{
+                margin-left: 200px;
+            }
+        }
+
+        .social-media{
+            a{
+                height: 30px;
+                width: 30px;
+                background-color: white;
+                border-radius: 50%;
+                display: grid;
+                place-content: center;
+                color: $ternary-color;
+            }
+        }
+    }
+    .navigation-bar{
+        background-color: $primary-color;
+        ul{
+            li{
+        padding: 20px;
+                 &:hover{
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
+
+}

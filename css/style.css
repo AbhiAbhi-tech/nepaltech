@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  max-width: 1320px;
+  margin-inline: auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.custom-btn {
+  background-color: #ED7701;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  border: none;
+}
+.custom-btn:hover {
+  background-color: #0B732B;
+}
+
+.margin-top {
+  margin-top: 70px;
+}
+
+.section-heading {
+  background-color: #0B732B;
+  color: white;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 20px;
+}
+
+.section-title {
+  text-align: center;
+  color: #0B732B;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+header .top-header {
+  color: white;
+  background-color: #088F33;
+  padding-block: 10px;
+}
+header .top-header .logo-div {
+  position: relative;
+  flex-basis: 40%;
+}
+header .top-header .logo-div .logo {
+  position: absolute;
+  top: -20px;
+  border: 3px solid #ED7701;
+  border-top: none;
+  z-index: 333;
+}
+header .top-header .logo-div marquee {
+  margin-left: 200px;
+}
+header .top-header .social-media a {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  color: #088F33;
+}
+header .navigation-bar {
+  background-color: #0B732B;
+}
+header .navigation-bar ul li {
+  padding: 20px;
+}
+header .navigation-bar ul li:hover {
+  background-color: #ED7701;
+}
+
+.banner-slider {
+  height: 80vh;
+}
+.banner-slider img {
+  height: 80vh;
+}
+.banner-slider .banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: end;
+  color: white;
+  padding-right: 100px;
+}
+.banner-slider .banner-content .banner-heading {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.banner-slider .banner-content p {
+  font-size: 20px;
+}
+.banner-slider .banner-content .custom-btn {
+  margin-top: 10px;
+}
+
+.banner-section {
+  position: relative;
+}
+.banner-section .search-trip {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 6666;
+  display: flex;
+  white-space: nowrap;
+}
+.banner-section .search-trip span {
+  background-color: #0B732B;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.banner-section .search-trip form {
+  background-color: #E6E6E6;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+.banner-section .search-trip form select {
+  background-color: white;
+  border: 1px solid #0B732B;
+  padding: 10px 20px;
+  width: 150px;
+}
+
+.about-us .grid-wrapper {
+  border-bottom: 1px solid #494848;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+}
+.about-us .grid-wrapper .features-packages ul {
+  margin-left: 30px;
+}
+.about-us .grid-wrapper .features-packages ul li {
+  margin-bottom: 10px;
+}
+.about-us .grid-wrapper .features-packages ul li i {
+  padding-right: 5px;
+  color: #0B732B;
+}
+.about-us .grid-wrapper .features-packages ul li:hover {
+  text-decoration: underline;
+}
+.about-us .grid-wrapper .custom-btn {
+  margin-top: 30px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.specialities-section .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.specialities-section .grid-wrapper .specialities-card {
+  position: relative;
+  overflow: hidden;
+}
+.specialities-section .grid-wrapper .specialities-card img {
+  transition: 0.5s;
+}
+.specialities-section .grid-wrapper .specialities-card:hover .title {
+  background-color: #0B732B;
+}
+.specialities-section .grid-wrapper .specialities-card:hover img {
+  transform: scale(1.3);
+}
+.specialities-section .grid-wrapper .specialities-card .title {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  background-color: #ED7701;
+  color: white;
+  padding: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
